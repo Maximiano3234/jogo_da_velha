@@ -42,3 +42,48 @@ h1 {
 .item:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.item.t {
+    border-top: 1px solid #fff;
+}
+
+.item.l {
+    border-left: 1px solid #fff;
+}
+
+.item.r {
+    border-right: 1px solid #FFF;
+}
+.item.b {
+    border-bottom: 1px solid #FFF;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+    border: 1px dotted #FFF;
+    padding: 10px;
+}
+    .infoitem {
+        flex: 1;
+    }
+    .infotitulo {
+        text-align: center;
+        color: #FFF;
+        margin-bottom: 10px;
+    }
+    .infocorpo {
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    .reset {
+        border: 1px solid #000;
+        background-color: rgba(0, 0, 0, 0,2);
+        color: #fff;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
